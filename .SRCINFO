@@ -13,6 +13,6 @@ pkgbase = open-cad-studio-bin
 	conflicts = open-cad-studio
 	options = !debug
 	source = https://github.com/tubbywrestler/open-cad-studio-bin/releases/download/2026.36-1/open-cad-studio-2026.36-1-x86_64.pkg.tar.zst
-	sha256sums = SKIP
+	sha256sums = 47a4d0095f7763881aa6a5c80baac546841b42e7da6da5e501c01cf583f386dc
 
 pkgname = open-cad-studio-bin
