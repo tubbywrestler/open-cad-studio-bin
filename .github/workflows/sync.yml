@@ -10,5 +10,6 @@ jobs:
     uses: tubbywrestler/aur-bin-chicken/.github/workflows/sync-and-build.yml@master
     with:
       aur_pkgbase: open-cad-studio
+      disable_debug: true
     permissions:
       contents: write
