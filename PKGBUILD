@@ -1,7 +1,7 @@
 # Maintainer: pineappletoad
 
 pkgname=open-cad-studio-bin
-pkgver=2026.46
+pkgver=2026.47
 _pkgrel_src=1
 pkgrel=1
 pkgdesc="A CAD application built with Rust — 2D/3D drawing, DWG/DXF support, and GPU-accelerated rendering (precompiled)"
@@ -19,7 +19,7 @@ depends=(
 )
 
 source=("https://github.com/tubbywrestler/open-cad-studio-bin/releases/download/${pkgver}-${_pkgrel_src}/open-cad-studio-${pkgver}-${_pkgrel_src}-x86_64.pkg.tar.zst")
-sha256sums=('1dced4a37f5cc810f922bc52fbab16e728652f55f26117709a51ab4c2e2a4cbe')
+sha256sums=('1d53d3d783f15443ded69e1f320eb1d66791ef0c2ba177672e0ad793a1247888')
 
 package() {
     bsdtar -xf "${srcdir}/open-cad-studio-${pkgver}-${_pkgrel_src}-x86_64.pkg.tar.zst" -C "${pkgdir}" --exclude .PKGINFO --exclude .BUILDINFO --exclude .MTREE
